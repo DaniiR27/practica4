@@ -20,7 +20,7 @@ int main(){
 	}
 
 	distancia_ab = sqrt(std::pow((coordenadas_b[0]-coordenadas_a[0]),2) +std::pow((coordenadas_b[1]-coordenadas_a[1]),2) +pow((coordenadas_b[2]-coordenadas_a[2]),2));
-	std::cout << distancia_ab;
+	std::cout << distancia_ab << std::endl;
 
 
 }
