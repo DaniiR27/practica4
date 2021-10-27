@@ -10,11 +10,13 @@ int main(){
 	
 		std::cout << "Introduzca la nota del alumno " << i << std::endl;
 		std::cin >> nota;
-		if(nota >= 0 &&  nota <= 10){
+
+		if(nota >= 0 &&  nota <= 10 ){
 			
 			suma_notas = suma_notas + nota;
 
 		}else{
+
 			std::cout << "La nota debe estar entre 0 y 10" <<  std::endl;
 			i--;
 		}
@@ -23,4 +25,6 @@ int main(){
 	}
 	
 	std::cout << "La nota media es: " << suma_notas/3 << std::endl;
+
+	return 0;
 }

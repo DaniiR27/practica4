@@ -8,6 +8,6 @@ int main(){
 	std::cout << "Introduzca la cantidad en euros" <<std::endl;
 	std::cin >> euros;
 	cantidad_yenes = euros / 0.0075;
-	std::cout << "Cantidad en yenes: " << cantidad_yenes;
+	std::cout << "Cantidad en yenes: " << cantidad_yenes << std::endl;
 
 }

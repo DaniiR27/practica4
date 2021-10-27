@@ -23,6 +23,8 @@ int main(){
 
 
 
-	std::cout << "Usted tiene " << dinero_total << " euros";
+	std::cout << "Usted tiene " << dinero_total << " euros" << std::endl;
+
+	return 0;
 
 }

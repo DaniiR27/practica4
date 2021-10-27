@@ -19,8 +19,14 @@ int main(){
 		std::cin >> coordenadas_b[i];	
 	}
 
+<<<<<<< HEAD
 	distancia_ab = sqrt(std::pow((coordenadas_b[0]-coordenadas_a[0]),2) +std::pow((coordenadas_b[1]-coordenadas_a[1]),2) +pow((coordenadas_b[2]-coordenadas_a[2]),2));
 	std::cout << distancia_ab << std::endl;
+=======
+	distancia_ab = sqrt(std::pow((coordenadas_b[0]-coordenadas_a[0]),2) + std::pow((coordenadas_b[1]-coordenadas_a[1]),2) + std::pow((coordenadas_b[2]-coordenadas_a[2]),2));
+
+	std::cout << "La distancia A>B es: "  << distancia_ab << std::endl;
+>>>>>>> 64c303182afdec5af44750fcc73abd2c48e413ff
 
 
 }
