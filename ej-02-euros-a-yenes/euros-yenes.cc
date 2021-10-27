@@ -10,4 +10,6 @@ int main(){
 	cantidad_yenes = euros / 0.0075;
 	std::cout << "Cantidad en yenes: " << cantidad_yenes << std::endl;
 
+	return 0;
+
 }

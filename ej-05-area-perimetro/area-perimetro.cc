@@ -12,6 +12,6 @@ int main(){
 
 	std::cout << "Area = " << lado*lado << std::endl << "Perímetro = " << lado*4 ;
 
-
+	return 0;
 
 }
